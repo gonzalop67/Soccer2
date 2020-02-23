@@ -10,6 +10,7 @@ namespace Soccer.Web.Data.Entities
         [Required(ErrorMessage = "The field {0} is mandatory.")]
         public string Name { get; set; }
 
+        [Display(Name = "Logo")]
         public string LogoPath { get; set; }
     }
 }
